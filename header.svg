@@ -90,12 +90,12 @@
     <!-- Status / Role Pill -->
     <rect x="-140" y="24" width="280" height="26" rx="13" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" opacity="0.9" />
     <circle cx="-120" cy="37" r="4" fill="#10b981" />
-    <text x="5" y="42" class="tag">SOFTWARE DEVELOPER &amp; BUILDER</text>
+    <text x="6" y="42" class="tag">AI &amp; DATA SCIENCE SPECIALIST</text>
 
     <!-- Main Title -->
     <text x="0" y="94" class="title" filter="url(#glow)">Nemika Aluthgedara</text>
 
     <!-- Subtitle -->
-    <text x="0" y="124" class="subtitle">Applied AI  •  Full-Stack &amp; Systems  •  Sri Lanka 🇱🇰</text>
+    <text x="0" y="124" class="subtitle">Artificial Intelligence  •  Data Science &amp; ML  •  Sri Lanka 🇱🇰</text>
   </g>
 </svg>
