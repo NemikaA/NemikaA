@@ -7,11 +7,11 @@
 
   <!-- Animated Typing Text -->
   <a href="https://github.com/NemikaA">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&width=580&lines=AI+%26+Data+Science+Specialist;Deep+Learning+%26+Computer+Vision+Builder;Data+Analysis+with+Python%2C+R+%26+SQL;Machine+Learning+Pipelines+%26+Intelligent+Systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&width=580&lines=Aspiring+AI+%2F+ML+Engineer+%26+Data+Scientist;Deep+Learning%2C+Computer+Vision+%26+Generative+AI;Statistical+Data+Analysis+with+Python%2C+R+%26+SQL;Machine+Learning+Pipelines+%26+Data+Modeling" alt="Typing SVG" />
   </a>
 
   <p align="center">
-    📍 Based in Sri Lanka &nbsp;|&nbsp; 🧠 Passionate about AI, Data Science &amp; Intelligent Systems
+    📍 Based in Sri Lanka &nbsp;|&nbsp; 🧠 Aspiring AI/ML Engineer &amp; Data Scientist
   </p>
 
 </div>
@@ -20,17 +20,17 @@
 
 ### 👨‍💻 About Me
 
-- 🧠 Specializing in **Artificial Intelligence, Deep Learning, and Data Science**.
-- 🔬 Currently developing **[sinhala-akuru-ai](https://github.com/NemikaA/sinhala-akuru-ai)** — an inpainting and visual font rendering pipeline using diffusion models and deterministic shaping.
-- 📊 Experienced in statistical modeling and data analysis using **R**, **Python** (Pandas, NumPy, Scikit-Learn), and **SQL**.
-- 🎯 Enjoy algorithmic problem solving and AI competitions (e.g. **[BotWars2026](https://github.com/NemikaA/BotWars2026)**).
-- 💬 Ask me about machine learning architectures, statistical data pipelines, or computer vision.
+- 🎯 **Target Roles:** Aspiring **AI / Machine Learning Engineer** and **Data Scientist**.
+- 🧠 **Areas of Focus:** Deep Learning, Computer Vision, Generative Models (Diffusion / ControlNet), and Statistical Data Modeling.
+- 🔬 **Current Project:** **[sinhala-akuru-ai](https://github.com/NemikaA/sinhala-akuru-ai)** — an inpainting and visual typography synthesis pipeline using diffusion models, region-weighted loss, and synthetic datasets.
+- 📊 **Data Analysis:** Practical statistical analysis, data wrangling, and predictive modeling using **R**, **Python** (Pandas, NumPy, Scikit-Learn), and **SQL**.
+- 🏆 **Algorithmic Modeling:** Strategy algorithms and game theory in competitive AI (**[BotWars2026](https://github.com/NemikaA/BotWars2026)**).
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### 🛠️ Technical Skills
 
-#### 🧠 AI, Deep Learning & Machine Learning
+#### 🧠 Machine Learning & Deep Learning
 <p align="left">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
@@ -40,7 +40,7 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
 </p>
 
-#### 📊 Data Science & Analytics
+#### 📊 Data Science, Analytics & Modeling
 <p align="left">
   <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
@@ -49,33 +49,32 @@
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
 </p>
 
-#### 💻 Programming Languages & Core
+#### 💻 Programming Languages
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
-#### 🧰 Tools & Platforms
+#### 🧰 Tools & Version Control
 <p align="left">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle" />
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 </p>
 
 ---
 
-### 🌟 Featured Repositories
+### 🌟 Featured AI & Data Projects
 
-| Repository | Description | Key Tech |
+| Repository | Focus Area | Technologies |
 | :--- | :--- | :--- |
-| **[sinhala-akuru-ai](https://github.com/NemikaA/sinhala-akuru-ai)** | Visual text inpainting and glyph synthesis pipeline to generate accurate, stylized Sinhala typography onto images. | `Python` `Diffusion Models` `ControlNet` `FastAPI` |
-| **[BotWars2026](https://github.com/NemikaA/BotWars2026)** | Algorithmic game bot strategies developed for the BotWars competitive programming challenge. | `Algorithms` `Game Theory` `Data Structures` |
-| **[MTUK-TUK](https://github.com/NemikaA/MTUK-TUK)** | Automotive management and spare parts inventory system. | `Java` `CSS` `Full-Stack` |
+| **[sinhala-akuru-ai](https://github.com/NemikaA/sinhala-akuru-ai)** | Computer Vision & Generative AI pipeline for accurate Sinhala typography inpainting using diffusion models. | `PyTorch` `Diffusers` `ControlNet` `FastAPI` |
+| **[BotWars2026](https://github.com/NemikaA/BotWars2026)** | Algorithmic game bot strategies developed for the BotWars competitive programming challenge. | `Algorithms` `Game Theory` `Decision Logic` |
+| **[MTUK-TUK](https://github.com/NemikaA/MTUK-TUK)** | Automotive spare parts inventory & management platform. | `Java` `Data Management` `SQL` |
 
 ---
 
