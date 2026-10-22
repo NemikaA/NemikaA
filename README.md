@@ -1,11 +1,13 @@
 <div align="center">
 
   <!-- Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,38&height=200&section=header&text=Nemika%20Aluthgedara&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%7C%20AI%20%26%20Systems%20Builder&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/NemikaA/NemikaA/main/header.svg" width="100%" alt="Nemika Aluthgedara Banner" />
+
+  <br />
 
   <!-- Animated Typing Text -->
   <a href="https://github.com/NemikaA">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=550&lines=Software+Developer+%26+Builder;Applied+Machine+Learning+%26+Computer+Vision;Java%2C+Python%2C+R+%26+Web+Technologies;Building+open-source+tools+that+solve+real+problems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&width=550&lines=Software+Developer+%26+Builder;Applied+Machine+Learning+%26+Computer+Vision;Java%2C+Python%2C+R+%26+Web+Technologies;Building+tools+that+solve+real+problems" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -77,5 +79,5 @@
 
 <div align="center">
   <!-- Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,24,38&height=100&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://raw.githubusercontent.com/NemikaA/NemikaA/main/footer.svg" width="100%" alt="Footer Banner" />
 </div>
