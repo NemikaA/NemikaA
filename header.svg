@@ -1,36 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 210" width="100%" height="210">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0d14"/>
-      <stop offset="50%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#1e1b4b"/>
+      <stop offset="45%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#191d38"/>
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
     </linearGradient>
 
     <!-- Wave Gradient 1 -->
     <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.65"/>
     </linearGradient>
 
     <!-- Wave Gradient 2 -->
     <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.75"/>
     </linearGradient>
 
-    <!-- Glow Filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    <!-- Ambient Filter -->
+    <filter id="ambient" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="35" />
     </filter>
 
-    <!-- Ambient Light Filter -->
-    <filter id="ambient" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="40" />
-    </filter>
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.15" />
+    </pattern>
   </defs>
 
   <style>
@@ -38,21 +51,22 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       font-size: 38px;
       font-weight: 800;
-      fill: #ffffff;
-      letter-spacing: -0.5px;
+      fill: url(#titleGrad);
+      letter-spacing: -0.6px;
     }
     .subtitle {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-size: 16px;
+      font-size: 15.5px;
       font-weight: 500;
       fill: #94a3b8;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.4px;
     }
     .tag {
       font-family: "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
       font-size: 12.5px;
-      font-weight: 600;
+      font-weight: 700;
       fill: #a5b4fc;
+      letter-spacing: 0.8px;
     }
     .wave1 {
       animation: waveMotion1 8s ease-in-out infinite alternate;
@@ -60,42 +74,53 @@
     .wave2 {
       animation: waveMotion2 10s ease-in-out infinite alternate;
     }
+    .pulse-dot {
+      animation: pulse 2s ease-in-out infinite;
+    }
     @keyframes waveMotion1 {
       0% { transform: translateY(0px); }
       100% { transform: translateY(6px); }
     }
     @keyframes waveMotion2 {
       0% { transform: translateY(0px); }
-      100% { transform: translateY(-8px); }
+      100% { transform: translateY(-7px); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
     }
   </style>
 
-  <!-- Container Box with Rounded Corners & Border -->
-  <rect width="850" height="200" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5" />
+  <!-- Container Box with Rounded Corners & Sleek Gradient Border -->
+  <rect width="850" height="210" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.2" />
+
+  <!-- Data Science Tech Grid Background -->
+  <rect width="850" height="210" rx="16" fill="url(#grid)" />
 
   <!-- Ambient Glow Orbs -->
-  <circle cx="150" cy="40" r="60" fill="#6366f1" opacity="0.25" filter="url(#ambient)" />
-  <circle cx="720" cy="160" r="70" fill="#06b6d4" opacity="0.2" filter="url(#ambient)" />
+  <circle cx="140" cy="45" r="70" fill="#6366f1" opacity="0.28" filter="url(#ambient)" />
+  <circle cx="720" cy="165" r="75" fill="#06b6d4" opacity="0.22" filter="url(#ambient)" />
+  <circle cx="425" cy="100" r="50" fill="#8b5cf6" opacity="0.15" filter="url(#ambient)" />
 
   <!-- Flowing Bottom Waves -->
   <g class="wave2">
-    <path d="M0,140 C180,110 320,180 500,135 C680,90 760,150 850,130 L850,200 L0,200 Z" fill="url(#waveGrad2)" />
+    <path d="M0,145 C180,115 320,185 500,140 C680,95 760,155 850,135 L850,210 L0,210 Z" fill="url(#waveGrad2)" />
   </g>
   <g class="wave1">
-    <path d="M0,155 C160,130 340,195 520,150 C680,115 780,165 850,145 L850,200 L0,200 Z" fill="url(#waveGrad1)" />
+    <path d="M0,160 C160,135 340,200 520,155 C680,120 780,170 850,150 L850,210 L0,210 Z" fill="url(#waveGrad1)" />
   </g>
 
   <!-- Content Group -->
   <g transform="translate(425, 0)" text-anchor="middle">
     <!-- Status / Role Pill -->
-    <rect x="-165" y="24" width="330" height="26" rx="13" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" opacity="0.9" />
-    <circle cx="-145" cy="37" r="4" fill="#10b981" />
-    <text x="7" y="42" class="tag">AI / ML ENGINEER &amp; DATA SCIENTIST</text>
+    <rect x="-165" y="24" width="330" height="28" rx="14" fill="#0f172a" stroke="#6366f1" stroke-width="1" opacity="0.95" />
+    <circle cx="-142" cy="38" r="4.5" fill="#10b981" class="pulse-dot" />
+    <text x="7" y="43" class="tag">AI / ML ENGINEER &amp; DATA SCIENTIST</text>
 
     <!-- Main Title -->
-    <text x="0" y="94" class="title" filter="url(#glow)">Nemika Aluthgedara</text>
+    <text x="0" y="96" class="title">Nemika Aluthgedara</text>
 
     <!-- Subtitle -->
-    <text x="0" y="124" class="subtitle">Machine Learning  •  Deep Learning  •  Data Science  •  Sri Lanka 🇱🇰</text>
+    <text x="0" y="126" class="subtitle">Machine Learning  •  Deep Learning  •  Data Science  •  Sri Lanka 🇱🇰</text>
   </g>
 </svg>
