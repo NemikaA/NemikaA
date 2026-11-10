@@ -3,6 +3,8 @@
     .pixel {
       font-family: 'Courier New', 'Lucida Console', monospace;
     }
+    .tw { animation: twinkle 2.4s ease-in-out infinite alternate; }
+    @keyframes twinkle { 0% {opacity:.15;} 100% {opacity:1;} }
     .footer-text {
       animation: fadeloop 4s ease-in-out infinite alternate;
     }
@@ -39,4 +41,4 @@
 
   <!-- Footer message -->
   <text x="425" y="44" class="pixel footer-text" font-size="16" fill="#ffffff" text-anchor="middle" letter-spacing="1">* you are filled with  <tspan fill="#FFD700" font-weight="bold">determination.</tspan></text>
-</svg>
+<text x="760" y="30" class="pixel tw" font-size="9" fill="#FFD700">✦</text><text x="790" y="52" class="pixel tw" font-size="7" fill="#42FCFF" style="animation-delay:1s">✦</text><text x="735" y="54" class="pixel tw" font-size="7" fill="#ffffff" style="animation-delay:2s">✦</text></svg>

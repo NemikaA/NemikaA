@@ -13,14 +13,15 @@
     .menu-text { font-family:'Courier New','Lucida Console',monospace; font-size:15px; font-weight:bold; fill:#fff; }
     .blink-cursor { animation: blink 1.1s step-end infinite; fill:#FFD700; }
     .heart-pulse { transform-box: fill-box; transform-origin: center; animation: heartbeat 1.4s ease-in-out infinite; }
+    .bob { animation: bob 1.2s steps(1) infinite; }
     .hp-bar-anim { animation: hpglow 2.5s ease-in-out infinite alternate; }
-    .stars { animation: twinkle 2s ease-in-out infinite alternate; }
-    .stars2 { animation: twinkle 3s ease-in-out infinite alternate; }
+    .tw { animation: twinkle 2.4s ease-in-out infinite alternate; }
     .row { animation: fadein .6s ease-out both; }
     @keyframes blink { 0%,100% {opacity:1;} 50% {opacity:0;} }
     @keyframes heartbeat { 0%,100% {transform:scale(1);} 30% {transform:scale(1.18);} 60% {transform:scale(.92);} }
+    @keyframes bob { 0%,100% {transform:translateY(0);} 50% {transform:translateY(-3px);} }
     @keyframes hpglow { 0% {opacity:.85;} 100% {opacity:1;} }
-    @keyframes twinkle { 0% {opacity:.3;} 100% {opacity:1;} }
+    @keyframes twinkle { 0% {opacity:.15;} 100% {opacity:1;} }
     @keyframes fadein { from {opacity:0;} to {opacity:1;} }
   </style>
   <rect width="850" height="132" fill="#000000"/>
@@ -28,14 +29,20 @@
   <rect x="12" y="12" width="826" height="108" fill="none" stroke="#ffffff" stroke-width="1.5"/>
   <rect x="6" y="6" width="8" height="8" fill="#000000"/><rect x="836" y="6" width="8" height="8" fill="#000000"/>
   <rect x="6" y="118" width="8" height="8" fill="#000000"/><rect x="836" y="118" width="8" height="8" fill="#000000"/>
-  <text x="30" y="40" class="pixel stars" font-size="10" fill="#ffffff" opacity="0.6">✦</text>
-  <text x="806" y="40" class="pixel stars2" font-size="8" fill="#ffffff" opacity="0.5">✦</text>
-  <g transform="translate(52,80)"><g class="heart-pulse" filter="url(#heartglow)"><text font-family="'Courier New', monospace" font-size="30" fill="#FF0000" text-anchor="middle">♥</text></g></g><text x="88" y="50" class="pixel yellow" font-size="17" letter-spacing="1">BotWars2026</text>
+  <rect x="512" y="25" width="2" height="2" fill="#42FCFF" class="tw" style="animation-delay:0.9s"/>
+  <rect x="495" y="24" width="2" height="2" fill="#ffffff" class="tw" style="animation-delay:2.3s"/>
+  <text x="526" y="32" class="pixel tw" font-size="7" fill="#ffffff" style="animation-delay:2.9s">✦</text>
+  <rect x="401" y="31" width="2" height="2" fill="#42FCFF" class="tw" style="animation-delay:1.6s"/>
+  <rect x="616" y="28" width="2" height="2" fill="#ffffff" class="tw" style="animation-delay:2.5s"/>
+  <text x="765" y="27" class="pixel tw" font-size="8" fill="#FFD700" style="animation-delay:2.7s">✦</text>
+  <text x="825" y="66" class="pixel tw" font-size="10" fill="#42FCFF" style="animation-delay:1.9s">✦</text>
+  <text x="826" y="67" class="pixel tw" font-size="7" fill="#ffffff" style="animation-delay:2.2s">✦</text>
+  <g transform="translate(38,60)"><g class="bob"><rect x="12" y="0" width="4" height="4" fill="#ffffff"/><rect x="12" y="4" width="4" height="4" fill="#ffffff"/><rect x="12" y="8" width="4" height="4" fill="#ffffff"/><rect x="12" y="12" width="4" height="4" fill="#ffffff"/><rect x="12" y="16" width="4" height="4" fill="#ffffff"/><rect x="12" y="20" width="4" height="4" fill="#ffffff"/><rect x="4" y="24" width="4" height="4" fill="#FF9D00"/><rect x="8" y="24" width="4" height="4" fill="#FF9D00"/><rect x="12" y="24" width="4" height="4" fill="#FF9D00"/><rect x="16" y="24" width="4" height="4" fill="#FF9D00"/><rect x="20" y="24" width="4" height="4" fill="#FF9D00"/><rect x="12" y="28" width="4" height="4" fill="#a05a00"/><rect x="12" y="32" width="4" height="4" fill="#a05a00"/><rect x="8" y="36" width="4" height="4" fill="#FF9D00"/><rect x="12" y="36" width="4" height="4" fill="#FF9D00"/><rect x="16" y="36" width="4" height="4" fill="#FF9D00"/></g></g><text x="88" y="50" class="pixel yellow" font-size="17" letter-spacing="1">BotWars2026</text>
   <text x="227" y="50" class="pixel dim" font-size="13">[Algorithmic Strategy &amp; Game Theory]</text>
   <line x1="30" y1="62" x2="820" y2="62" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
-  <text x="88" y="84" class="pixel  row" font-size="14" fill="#ffffff" style="animation-delay:0.0s" >Competitive strategy bots forged in algorithmic combat.</text>
-  <text x="88" y="106" class="pixel dim row" font-size="12"  style="animation-delay:0.0s" >[Algorithms]  [Decision Trees]  [Game Theory]</text>
-  <rect x="690" y="78" width="120" height="34" fill="#000000" stroke="#FFD700" stroke-width="2.5"/>
-  <text x="750" y="100" class="menu-text" text-anchor="middle" fill="#FFD700">CHECK ▶</text>
+  <text x="88" y="84" class="pixel  row" font-size="14" fill="#ffffff" style="animation-delay:0.0s">Competitive strategy bots forged in algorithmic combat.</text>
+  <text x="88" y="106" class="pixel dim row" font-size="12" fill="#ffffff" style="animation-delay:0.0s">[Algorithms]  [Decision Trees]  [Game Theory]</text>
+  <rect x="690" y="78" width="120" height="34" fill="#000000" stroke="#FF9D00" stroke-width="2.5"/>
+  <text x="750" y="100" class="menu-text" text-anchor="middle" fill="#FF9D00">CHECK ▶</text>
   
 </svg>
