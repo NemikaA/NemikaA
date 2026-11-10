@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="140" role="img" aria-label="Nemika appeared">
+  <defs>
+    <filter id="heartglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .pixel { font-family: 'Courier New', 'Lucida Console', monospace; }
+    .yellow { fill:#FFD700; font-weight:bold; }
+    .val { fill:#FFD700; }
+    .dim { fill:#ffffff; opacity:.6; }
+    .menu-text { font-family:'Courier New','Lucida Console',monospace; font-size:15px; font-weight:bold; fill:#fff; }
+    .blink-cursor { animation: blink 1.1s step-end infinite; fill:#FFD700; }
+    .heart-pulse { transform-box: fill-box; transform-origin: center; animation: heartbeat 1.4s ease-in-out infinite; }
+    .hp-bar-anim { animation: hpglow 2.5s ease-in-out infinite alternate; }
+    .stars { animation: twinkle 2s ease-in-out infinite alternate; }
+    .stars2 { animation: twinkle 3s ease-in-out infinite alternate; }
+    .row { animation: fadein .6s ease-out both; }
+    @keyframes blink { 0%,100% {opacity:1;} 50% {opacity:0;} }
+    @keyframes heartbeat { 0%,100% {transform:scale(1);} 30% {transform:scale(1.18);} 60% {transform:scale(.92);} }
+    @keyframes hpglow { 0% {opacity:.85;} 100% {opacity:1;} }
+    @keyframes twinkle { 0% {opacity:.3;} 100% {opacity:1;} }
+    @keyframes fadein { from {opacity:0;} to {opacity:1;} }
+  </style>
+  <rect width="850" height="140" fill="#000000"/>
+  <rect x="6" y="6" width="838" height="128" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <rect x="12" y="12" width="826" height="116" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <rect x="6" y="6" width="8" height="8" fill="#000000"/><rect x="836" y="6" width="8" height="8" fill="#000000"/>
+  <rect x="6" y="126" width="8" height="8" fill="#000000"/><rect x="836" y="126" width="8" height="8" fill="#000000"/>
+  <text x="30" y="40" class="pixel stars" font-size="10" fill="#ffffff" opacity="0.6">✦</text>
+  <text x="806" y="40" class="pixel stars2" font-size="8" fill="#ffffff" opacity="0.5">✦</text>
+  <g transform="translate(52,80)"><g class="heart-pulse" filter="url(#heartglow)"><text font-family="'Courier New', monospace" font-size="30" fill="#FF0000" text-anchor="middle">♥</text></g></g><text x="88" y="52" class="pixel blink-cursor" font-size="17">▶</text>
+  <text x="110" y="52" class="pixel yellow" font-size="17" letter-spacing="1">* Nemika appeared.</text>
+  <line x1="30" y1="66" x2="820" y2="66" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+  <text x="88" y="92" class="pixel  row" font-size="14" fill="#ffffff" style="animation-delay:0.2s" >* They are armed with Python and an obsession with machine learning.</text>
+  <text x="88" y="114" class="pixel  row" font-size="14" fill="#ffffff" style="animation-delay:0.5s" >* Their DETERMINATION cannot be measured.</text>
+  <text x="820" y="116" class="pixel" font-size="11" fill="#FFD700" opacity="0.7" text-anchor="end" letter-spacing="2">ENCOUNTER</text>
+  
+</svg>
