@@ -102,8 +102,11 @@
 ### 📊 &nbsp; * BATTLE LOG
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NemikaA&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NemikaA&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com?user=NemikaA&theme=tokyonight&hide_border=true" width="49%" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NemikaA&theme=tokyonight" width="49%" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NemikaA&theme=tokyonight" width="49%" alt="Repos by Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NemikaA&theme=tokyonight" width="49%" alt="Most Commit Language" />
 </div>
 
 <br/>
