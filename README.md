@@ -97,19 +97,7 @@
 
 <br/>
 
----
 
-### 📊 &nbsp; * BATTLE LOG
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=NemikaA&theme=tokyonight&hide_border=true" width="49%" alt="GitHub Streak" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NemikaA&theme=tokyonight" width="49%" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NemikaA&theme=tokyonight" width="49%" alt="Repos by Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NemikaA&theme=tokyonight" width="49%" alt="Most Commit Language" />
-</div>
-
-<br/>
 
 ---
 
